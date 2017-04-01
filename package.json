@@ -6,6 +6,7 @@
   "subdomain": "revealjs",
   "main": "js/reveal.js",
   "scripts": {
+    "dev": "grunt css-themes && cp ./css/theme/profyu.css ../big-data-hadoop-spark-slide/theme/profyu.css",
     "test": "grunt test",
     "start": "grunt serve"
   },

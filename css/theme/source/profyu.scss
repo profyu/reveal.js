@@ -86,3 +86,9 @@ $selectionColor: #fff;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.logo:hover {
+  transform: rotate(360deg);
+  transition: -webkit-transform 0.8s ease;
+  filter: hue-rotate(10deg);
+}

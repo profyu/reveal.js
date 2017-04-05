@@ -26,6 +26,9 @@
 			<div class="slides">
 				<section>Slide 1</section>
 				<section>Slide 2</section>
+				<section>
+					<div data-gist-url="https://gist.github.com/junhanlin/00c9f52380ebbfd4baf98e870431010b.js?file=pom.xml"></div>
+				</section>
 			</div>
 		</div>
 
@@ -42,7 +45,10 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/menu/menu.js' },
+					{ src: 'plugin/gist/gist.js' }
+
 				]
 			});
 		</script>

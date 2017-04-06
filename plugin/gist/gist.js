@@ -22,6 +22,7 @@ var RevealGist = window.RevealGist || (function() {
     // Create an iframe, append it to this document where specified
     var gistFrame = document.createElement("iframe");
     gistFrame.setAttribute("width", "100%");
+    gistFrame.setAttribute("height", "100%");
     // gistFrame.id = "gistFrame" + this.props.gistId;
 
 

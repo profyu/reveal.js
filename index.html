@@ -47,7 +47,7 @@
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/menu/menu.js' },
-					{ src: 'plugin/gist/gist.js' }
+					{ src: 'plugin/gist/gist.js', condition:function(){return !!document.querySelectorAll("div[data-gist-url]");} }
 
 				]
 			});
